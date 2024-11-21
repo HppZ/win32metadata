@@ -253,6 +253,11 @@
       StandardErrorImportance="high"
       />
 
+    <!-- 
+    <Copy SourceFiles="D:\opensource\SharpGen\Publish\generated\winmdProject\obj\generated\common\ffnet.cs" DestinationFiles="D:\opensource\SharpGen\Publish\generated\winmdProject\obj\generated\common\ffnet.cs.orig" /> 
+    <Copy SourceFiles="D:\opensource\SharpGen\Publish\ffnet\ffnet.cs" DestinationFiles="D:\opensource\SharpGen\Publish\generated\winmdProject\obj\generated\common\ffnet.cs" /> 
+    -->
+
   </Target>
 
   <Target Name="EmitWinmd" BeforeTargets="Build"
